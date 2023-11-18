@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rye', serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1160px;
+}
+
+a {
+    display: inline block;
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* < !-- top-head-------------------- --> */
+#top-head {
+    background: #477018;
+    padding: 15px 0;
+}
+
+.top-head {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* < !-- .....................header---------------------- --> */
+#header {
+    margin: 31px 0;
+}
+
+.all-head-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-head-detail h1 {
+    color: #477018;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,middle ............. */
+.all-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-list a {
+    color: #282828;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+/* right */
+
+.right-side-detail {
+    position: relative;
+}
+
+.all-font {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.all-font a {
+    padding-left: 16px;
+    color: gray;
+}
+
+.right-top {
+    position: absolute;
+    top: 0;
+    left: 36%;
+}
+
+.right-top h4 {
+    color: rgb(27, 26, 26);
+    background-color: red;
+    padding: 3px 3px;
+    border-radius: 60%;
+}
+
+/* < !-- ////////////////Organic section-------------------------- --> */
+#Organic-bcg {
+    background-image: url(./image/top\ bcg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: top right;
+}
+
+.bcg-text {
+    padding: 132px 0;
+    justify-content: left;
+}
+
+.bcg-text h1 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bcg-text h1 span {
+    color: #F47606;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.all-p {
+    margin-top: 20px;
+}
+
+.all-p p {
+    color: #676767;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+
+}
+
+.btn button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 14px 50px;
+    border-radius: 10px;
+    background: #477018;
+    border: none;
+    margin-top: 30px;
+    transition: 4s all ease;
+}
+
+/* < !-- <section>Support 24/7</section>--> */
+#Support-card {
+    margin: 130px 0;
+}
+
+.all-support-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-one {
+    border: 2px solid gainsboro;
+    display: inline-block;
+    padding: 88px 50px;
+    border-radius: 8px;
+    width: 267px;
+    height: 320px;
+
+
+
+}
+
+.card-one a {
+    font-size: 40px;
+
+}
+
+.card-one h1 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.card-one p {
+    color: #676767;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* < !-- ----------------section Vegetables-------------------- --> */
+
+
+.all-item-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+
+
+.frist-pic img {
+    width: 170px;
+    height: 141px;
+    border-radius: 10px;
+
+}
+
+.frist-pic h3 {
+    color: #282828;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* < !-- ----------------section Featured Products------------------ --> */
+
+.Featured-Product-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Featured-Product-top-left h1 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Featured-Product-top-right h3 {
+    color: #F47606;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    cursor: pointer;
+
+}
+
+.Featured-Product-top a {
+    font-size: 10px;
+    color: #F47606;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+#Featured-Product {
+    height: 100%;
+    margin-bottom: 200px;
+}
+
+.Featured-Product-all-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 130px; */
+}
+
+.all-text-pic-detail {
+    width: 364px;
+    height: 450px;
+
+}
+
+.frist-img {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.pic {}
+
+.position-detail {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    transition: 5s all ease-in;
+}
+
+.position-detail a {
+    font-size: 40px;
+    margin-left: 27px;
+}
+
+.frist-img:hover .position-detail {
+    display: block;
+    left: 15%;
+    bottom: 22px;
+    transform: scaleX(50%);
+    transition: 1s all ease-out;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.detail img {
+    margin-bottom: 12px;
+}
+
+.detail h3 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 12px;
+}
+/* .< !-- ....................Why Choose Us <section></section>----------- --> */
+
+
+.choose-top h1{
+        color: #282828;
+        text-align: center;
+        font-family: Inter;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    margin-bottom: 47px;}
+.all-choose-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.frist-choose-one{
+    width: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frist-choose-one img{
+        
+        margin-bottom: 30px;
+}
+.frist-choose-one h1{
+        
+            color: #000;
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+}
+.frist-choose-one p{
+        
+        color: #676767;
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            
+}
+
+
+
+
+/* < !-- section--------------------------Healthy---------------------- --> */
+
+.bcg-img{
+    background-image: url(./image/bcg\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bcg-text-detail{
+    padding: 92px 104px;
+}
+.bcg-text-detail h1{
+    color: #282828;
+       
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.bcg-text-detail p{
+        color: #676767;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        
+}
+.btn button:hover{
+    background-color: tomato;
+    color: black;
+    transition: 1s all ease;
+}
+
+
+
+
+
