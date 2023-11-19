@@ -668,6 +668,64 @@ color: #676767;
     align-items: center;
 }
 
+/* --------------------------------------------------- */
+.all-body{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+
+.left-body{
+    width: 50%;
+}
+
+.left-body img{
+    width: 550px;
+}
+
+.right-body{
+    background-color:rgb(161, 217, 240);
+    padding: 20px;
+}
+.right-body h1{
+    color: #282828;
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.right-body h1 span{
+    color: #F47606;
+        font-family: Inter;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.right-body h1 strong{
+    color: #06f41a;
+        font-family: Inter;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.right-body p{
+    color: #676767;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;---------------------
+}
+
+
+
+
+
+
 
 /* < !-- <section>Latest Blog</section>--> */
 .Latest-Blog{
@@ -753,10 +811,19 @@ color: #000;
     
 }
 
-.footer-end{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.footer-end-off{
+    box-shadow: rgba(88, 152, 216, 0.2) 0px 8px 24px;
         padding: 24px 36px;
-
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    padding: 30px;
+}
+.footer-end{
+    box-shadow: rgba(88, 152, 216, 0.2) 0px 8px 24px;
+        padding: 24px 36px;
+    
     display: flex;
     flex-direction: row;
     justify-content:left;
@@ -786,6 +853,17 @@ color: #000;
         font-weight: 600;
         line-height: normal;
 }
+
+
+
+/* -----------------------------------pic */
+.img{
+    width: 364px;
+        height: 216px;
+        
+            background: linear-gradient(to right, rgb(128, 128, 214)51%, 67%), rgb(135, 169, 232), rgb(143, 235, 228);
+}
+
 
 
 /* !-- -------------------------------foooter--------------------------------- -->
